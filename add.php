@@ -39,7 +39,7 @@ if(isset($_POST['submit']))
 
     if(!$insert)
     {
-      echo "slot already booked";
+    //  echo "slot already booked";
         echo mysqli_error($conn);
     }
     else
